@@ -1,8 +1,7 @@
 .signin {
     width: 500px;
     height: 350px;
-    margin: 0 auto;
-    margin-top: 25vh;
+    margin-left: 488px;
     background-color: #F1EEE9;
     display: flex;
     flex-direction: column;
@@ -10,12 +9,15 @@
     border: solid 2px white;
     border-radius: 8px;
     box-shadow: 5px 10px 18px black;
+    justify-content: center;
 }
 
 .logo {
-    width: 80px;
+    width: 200px;
     height: auto;
     margin-top: 7px;
+    margin: 40px;
+    margin-left: 635px;
 }
 
 .header-2 {
