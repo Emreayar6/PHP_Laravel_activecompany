@@ -1,18 +1,14 @@
-.col {
-    //margin-left: -11px !important;
-}
-
 .header {
     width: 100% !important;
     height: auto;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .logo-box {
     width: 300px;
-    margin-left: 40px;
+    margin-left: 82px;
     margin-bottom: 20px;
 }
 
@@ -78,6 +74,10 @@
     font-size: 30px;
     font-weight: bold;
     font-family: 'Rokkit', serif;
+}
+
+.completed-projects {
+    font-size: 21px !important;
 }
 
 .completed-projects {
@@ -175,7 +175,15 @@
 }
 
 .card-info {
-    font-size: 20px;
+    font-size: 12px;
+
+    &-line1 {
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
 }
 
 .btn-1 {

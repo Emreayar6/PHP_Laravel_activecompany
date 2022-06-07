@@ -141,12 +141,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 
 .logo-box {
   width: 300px;
-  margin-left: 40px;
+  margin-left: 82px;
   margin-bottom: 20px;
 }
 
@@ -212,6 +212,10 @@ body {
 }
 
 .completed-projects {
+  font-size: 21px !important;
+}
+
+.completed-projects {
   color: #ece9e5;
   text-decoration: none;
   font-size: 15px;
@@ -266,14 +270,9 @@ body {
           box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
-.cards {
-  text-decoration: none;
-}
-
 .project-cards {
   -webkit-transition: all .2s;
   transition: all .2s;
-  text-decoration: none;
 }
 
 .project-cards:hover {
@@ -315,7 +314,24 @@ body {
 }
 
 .card-info {
-  font-size: 20px;
+  font-size: 12px;
+}
+
+.card-info-line1 {
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .btn-1 {
@@ -335,4 +351,89 @@ body {
   border-radius: 4px;
   height: 28px;
   cursor: pointer;
+}
+
+.card-content-detailed {
+  height: 400px;
+  padding-left: 20px;
+  border-radius: 8px;
+  background-color: #ece9e5;
+  font-family: 'Rokkit', serif;
+  font-weight: bold;
+}
+
+.card-content-detailed p {
+  padding: 10px;
+}
+
+.project-info {
+  font-size: 13px;
+}
+
+.tasks-list {
+  padding-left: 15px;
+  font-size: 15px;
+  font-family: 'Rokkit', serif;
+}
+
+.tasks-list-list {
+  list-style: none;
+}
+
+.task-item {
+  width: 550px;
+  height: 25px;
+  margin-bottom: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tasks {
+  width: 50px;
+  height: 20px;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  border-radius: 4px;
+  background-color: transparent;
+  border: solid 1px black;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.tasks:hover {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.card-info-detail {
+  margin-right: 43px;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-info-detail p {
+  font-size: 15px;
 }

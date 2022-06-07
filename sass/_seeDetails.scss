@@ -1,0 +1,76 @@
+.card-content-detailed {
+    height: 400px;
+    padding-left: 20px;
+    border-radius: 8px;
+    background-color: #ece9e5;
+    font-family: 'Rokkit', serif;
+    font-weight: bold;
+
+    p {
+        padding: 10px;
+    }
+}
+
+
+.project-info {
+    font-size: 13px;
+}
+
+.tasks-list {
+    padding-left: 15px;
+    font-size: 15px;
+    font-family: 'Rokkit', serif;
+
+
+    &-list {
+        list-style: none;
+
+    }
+}
+
+.task-item {
+
+    width: 550px;
+    height: 25px;
+
+    margin-bottom: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tasks {
+    width: 50px;
+    height: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    transition: all .2s;
+    border-radius: 4px;
+    background-color: transparent;
+    border: solid 1px black;
+    text-align: center;
+    padding-bottom: 25px;
+
+
+    &:hover {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+
+}
+
+.card-info-detail {
+    margin-right: 43px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+
+    p {
+        font-size: 15px;
+    }
+
+}
