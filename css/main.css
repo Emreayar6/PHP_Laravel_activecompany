@@ -354,7 +354,7 @@ body {
 }
 
 .card-content-detailed {
-  height: 400px;
+  height: 600px;
   padding-left: 20px;
   border-radius: 8px;
   background-color: #ece9e5;
@@ -436,4 +436,123 @@ body {
 
 .card-info-detail p {
   font-size: 15px;
+}
+
+.project-members {
+  font-size: 15px;
+  font-family: 'Rokkit', serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.project-members-info {
+  width: 324px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 30px;
+  margin-bottom: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project-members-info-img {
+  width: 60px;
+  height: auto;
+}
+
+.assignee {
+  font-weight: bolder;
+  margin-bottom: 10px;
+  border-bottom: solid 2px black;
+  width: 958px;
+  text-align: center;
+}
+
+.company-name {
+  border-bottom: solid 2px #EC994B;
+  border-left: solid 2px #EC994B;
+  border-top: solid 2px #EC994B;
+  border-radius: 4px;
+}
+
+.task-updates-message {
+  padding-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.task-updates-message-input {
+  width: 300px;
+  height: 30px;
+  background-color: #d5d1d1;
+  border: solid 1px black;
+  border-radius: 4px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-family: 'Rokkit', serif;
+}
+
+.task-updates-message-btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  border: solid 1px #15133C;
+  font-family: 'Rokkit', serif;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.task-updates-message-btn:hover {
+  background-color: #15133C;
+  color: white;
+}
+
+.tasks-updates-info {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 20px;
+}
+
+.tasks-updates-info-img {
+  width: 60px;
+  height: auto;
+}
+
+.tasks-updates-info-p {
+  width: 400px;
+  font-size: 13px;
+  border-top: solid 1px #15133C;
+  border-bottom: solid 1px #15133C;
+  border-right: solid 1px #15133C;
+  border-radius: 4px;
 }

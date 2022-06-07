@@ -1,5 +1,5 @@
 .card-content-detailed {
-    height: 400px;
+    height: 600px;
     padding-left: 20px;
     border-radius: 8px;
     background-color: #ece9e5;
@@ -73,4 +73,34 @@
         font-size: 15px;
     }
 
+}
+
+.project-members {
+    font-size: 15px;
+    font-family: 'Rokkit', serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &-info {
+        width: 324px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-bottom: 10px;
+        align-items: center;
+
+        &-img {
+            width: 60px;
+            height: auto;
+        }
+    }
+}
+
+.assignee {
+    font-weight: bolder;
+    margin-bottom: 10px;
+    border-bottom: solid 2px black;
+    width: 958px;
+    text-align: center;
 }
