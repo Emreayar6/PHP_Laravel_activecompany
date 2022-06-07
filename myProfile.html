@@ -15,7 +15,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="css/main.css">
-    <title>Welcome to Active Company</title>
+    <title>My Profile</title>
 </head>
 
 <body>
@@ -23,14 +23,13 @@
 
     <div class="logo-box header">
         <a href="homePage.html"><img src="img/logo.png" alt="Logo" class="logo-header"></a>
-        <h1 class="section-name">Projects</h1>
-        <a href="completedProjects.html" class="completed-projects">Completed Projects</a>
+        <h1 class="section-name">My Profile</h1>
         <div class="search">
             <input type="text" placeholder="Search" class="search-text">
             <img src="img/search.png" alt="Search" class="search-icon">
         </div>
         <a href="#"><img src="img/help.png" alt="Find Help" class="find-help" title="Find Help"></a>
-        <a href="myProfile.html"><img src="img/profile.png" alt="Profile" class="profile find-help" title="Profile"></a>
+        <a href="#"><img src="img/profile.png" alt="Profile" class="profile find-help" title="Profile"></a>
         <a href="#"><img src="img/notification.png" alt="Notifications" class="notification find-help"
                 title="Notifications"></a>
     </div>
@@ -75,59 +74,22 @@
 
             </div>
 
+            <div class="my-profile">
+                <img src="img/profile.png" alt="Profile Picture" class="profile-picture">
+
+                <label for="my-profile-name" class="my-profile-label">First Name & Last Name</label>
+                <input type="text" placeholder="Hakan Okut" class="my-profile-input" name="my-profile-name" required>
+                <label for="my-profile-mail" class="my-profile-label">Email</label>
+                <input type="email" placeholder="hakanokut232323@gmail.com " class="my-profile-input"
+                    name="my-profile-mail" required>
+                <p>*This e-mail is your login username,so it is required.</p>
+
+                <label for="my-profile-password" class="my-profile-label">Change Password</label>
+                <input type="password" class="my-profile-input" name="my-profile-password">
 
 
-            <div class="col-sm p-4 project-cards-detailed">
-                <div class="card-content-detailed">
-                    <h2 class="line-1">Task-1 <span class="company-name">
-                            from
-                            <b>Company X </b>
-                        </span></h2>
-                    <h5>Created By Kemal Koçyiğit</h5>
-                    <div class="card-info-detail">
+                <button class="my-profile-btn" onclick="window.location.href = 'homePage.html' ">Save Changes</button>
 
-                        <p>Project ID: #1928</p>
-                        <p>Task ID: #3746</p>
-
-                        <p>Created Date: 01/01/2022</p>
-                        <p style="color: darkgreen;">Status: IN PROGRESS </p>
-                        <p>Due Date : 01/01/2023</p>
-
-                    </div>
-
-                    <p class="project-info">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque hic maiores esse odio,
-                        quibusdam nesciunt voluptatem nobis consectetur, omnis rerum dignissimos tenetur, odit
-                        accusantium? Accusamus fugit asperiores tenetur doloribus ut?
-
-                    </p>
-
-                    <div class="task-updates-message">
-                        <input type="text" placeholder="Write a comment.." class="task-updates-message-input">
-                        <button class="task-updates-message-btn">Send</button>
-                    </div>
-
-                    <div class="tasks-updates-info">
-                        <img src="img/man.png" alt="Team Member" class="tasks-updates-info-img">
-                        <h3>Emre Ayar </h3>
-                        <p class="tasks-updates-info-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                            ducimus cum aliquid libero assumenda illum maiores ab aut! Temporibus veritatis beatae aut!
-                            Sunt architecto quos voluptate dignissimos accusantium laudantium eveniet?</p>
-
-                    </div>
-
-                    <div class="tasks-updates-info">
-                        <img src="img/girl.png" alt="Team Member" class="tasks-updates-info-img">
-                        <h3>İkbal Avsar </h3>
-                        <p class="tasks-updates-info-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                            ducimus cum aliquid libero assumenda illum maiores ab aut! Temporibus veritatis beatae aut!
-                            Sunt architecto quos voluptate dignissimos accusantium laudantium eveniet?</p>
-
-                    </div>
-
-
-
-                </div>
 
 
             </div>
@@ -135,10 +97,12 @@
 
 
 
+
+
+
+
         </div>
     </div>
-
-    <script src="js/star.js"></script>
 
 </body>
 
