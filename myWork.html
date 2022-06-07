@@ -15,7 +15,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="css/main.css">
-    <title>My Profile</title>
+    <title>Welcome to Active Company</title>
 </head>
 
 <body>
@@ -23,13 +23,13 @@
 
     <div class="logo-box header">
         <a href="homePage.html"><img src="img/logo.png" alt="Logo" class="logo-header"></a>
-        <h1 class="section-name">My Profile</h1>
+        <h1 class="section-name">My Work</h1>
         <div class="search">
             <input type="text" placeholder="Search" class="search-text">
             <img src="img/search.png" alt="Search" class="search-icon">
         </div>
         <a href="#"><img src="img/help.png" alt="Find Help" class="find-help" title="Find Help"></a>
-        <a href="#"><img src="img/profile.png" alt="Profile" class="profile find-help" title="Profile"></a>
+        <a href="myProfile.html"><img src="img/profile.png" alt="Profile" class="profile find-help" title="Profile"></a>
         <a href="#"><img src="img/notification.png" alt="Notifications" class="notification find-help"
                 title="Notifications"></a>
     </div>
@@ -74,25 +74,71 @@
 
             </div>
 
-            <div class="my-profile">
-                <img src="img/profile.png" alt="Profile Picture" class="profile-picture">
-                <span style="font-size: 15px; padding-top: 5px; padding-left: 10px;">ID : 64180012 <br>Job Description:
-                    Developer</span>
 
 
-                <label for="my-profile-name" class="my-profile-label">First Name & Last Name</label>
-                <input type="text" placeholder="Hakan Okut" class="my-profile-input" name="my-profile-name" required>
-                <label for="my-profile-mail" class="my-profile-label">Email</label>
-                <input type="email" placeholder="hakanokut232323@gmail.com " class="my-profile-input"
-                    name="my-profile-mail" required>
-                <p>*This e-mail is your login username,so it is required.</p>
+            <div class="col-sm p-4 project-cards-detailed">
+                <div class="card-content-detailed">
+                    <p style="font-size: 25px; font-weight: bolder; border-bottom: solid 2px black; width: 958px;">Tasks
+                    </p>
 
-                <label for="my-profile-password" class="my-profile-label">Change Password</label>
-                <input type="password" class="my-profile-input" name="my-profile-password">
+                    <div class="tasks-list">
+                        <ul class="tasks-list-list">
+                            <li class="task-item">
+                                <a href="task-detailed.html" class="tasks">Task1</a>
+
+                                <span>
+                                    assigned by <b>Ikbal Avsar</b>
+                                </span>
+
+                                <span style="color: green;">Active</span>
 
 
-                <button class="my-profile-btn" onclick="window.location.href = 'homePage.html' ">Save Changes</button>
+                            </li>
 
+
+                            <li class="task-item">
+                                <a href="task-detailed.html" class="tasks">Task2</a>
+                                <span>
+                                    assigned by <b>Emre Ayar</b>
+                                </span>
+
+                                <span style="color: green;">Active</span>
+
+                            </li>
+
+                            <li class="task-item">
+                                <a href="task-detailed.html" class="tasks">Task3</a>
+                                <span>
+                                    assigned by <b>Betül Okut </b>
+                                </span>
+
+                                <span style="color: green;">Active</span>
+
+                            </li>
+
+                            <li class="task-item">
+                                <a href="task-detailed.html" class="tasks">Task4</a>
+                                <span>
+                                    assigned by <b>Nihat Güngör</b>
+                                </span>
+
+                                <span style="color: red;">Important</span>
+
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                </div>
 
 
             </div>
@@ -100,12 +146,10 @@
 
 
 
-
-
-
-
         </div>
     </div>
+
+    <script src="js/star.js"></script>
 
 </body>
 
