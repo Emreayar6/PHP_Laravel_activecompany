@@ -81,9 +81,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 977px;
+    padding-left: 10px;
 
     &-info {
-        width: 324px;
+        width: 312px;
         display: flex;
         flex-direction: row;
         gap: 30px;
@@ -103,4 +105,9 @@
     border-bottom: solid 2px black;
     width: 958px;
     text-align: center;
+    padding: 10px;
+}
+
+.add-task {
+    margin-left: 710px !important;
 }

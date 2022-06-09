@@ -353,6 +353,22 @@ body {
   cursor: pointer;
 }
 
+.create-link {
+  color: #ece9e5;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Rokkit', serif;
+  margin-right: 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.create-link:hover, .create-link:active, .create-link:link {
+  color: #ece9e5;
+  text-decoration: none;
+}
+
 .card-content-detailed {
   height: 600px;
   padding-left: 20px;
@@ -450,10 +466,12 @@ body {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 977px;
+  padding-left: 10px;
 }
 
 .project-members-info {
-  width: 324px;
+  width: 312px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -479,6 +497,11 @@ body {
   border-bottom: solid 2px black;
   width: 958px;
   text-align: center;
+  padding: 10px;
+}
+
+.add-task {
+  margin-left: 710px !important;
 }
 
 .company-name {
@@ -612,4 +635,76 @@ body {
   color: white;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.create-project {
+  background-color: #ece9e5;
+  border-radius: 8px;
+  width: 979px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.create-project-label {
+  font-size: 20px;
+  font-family: 'Rokkit', serif;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+.create-project-input {
+  width: 400px;
+  height: auto;
+  font-size: 16px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.create-project-input-description {
+  width: 600px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 6px;
+  font-size: 16px;
+}
+
+.create-project-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.create-project-btn {
+  width: 200px;
+  height: 40px;
+  color: #ece9e5;
+  margin-left: 780px;
+  border-radius: 4px;
+  background-color: #242c3a;
+}
+
+.choose-team {
+  margin-top: 10px;
+  font-weight: bolder;
+  padding-left: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.choose-team:hover {
+  -webkit-box-shadow: 5px 10px 18px black;
+          box-shadow: 5px 10px 18px black;
 }
