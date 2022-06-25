@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rokkitt:wght@200&display=swap"
-        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/main.css">
     <title>Welcome to Active Company</title>
@@ -22,27 +21,28 @@
 
 
     <div class="logo-box header">
-        <a href="homePage.html"><img src="img/logo.png" alt="Logo" class="logo-header"></a>
-        <h1 class="section-name">Projects</h1>
-        <a href="completedProjects.html" class="completed-projects">Completed Projects</a>
-
-        <div class="search">
-            <a href="createProject.html" class="create-link">Create New Project</a>
-            <input type="text" placeholder="Search" class="search-text">
-            <img src="img/search.png" alt="Search" class="search-icon">
+        <div class="container d-flex align-items-center justify-content-center">
+            <a href="homePage.html"><img src="img/logo.png" alt="Logo" class="logo-header"></a>
+            <h1 class="section-name">Projects</h1>
+            <a href="completedProjects.html" class="completed-projects">Completed Projects</a>
+    
+            <div class="search">
+                <a href="createProject.html" class="create-link">Create New Project</a>
+                <input type="text" placeholder="Search" class="search-text">
+                <img src="img/search.png" alt="Search" class="search-icon">
+            </div>
+            <a href="#"><img src="img/help.png" alt="Find Help" class="find-help" title="Find Help"></a>
+            <a href="myProfile.html"><img src="img/profile.png" alt="Profile" class="profile find-help" title="Profile"></a>
+            <a href="#"><img src="img/notification.png" alt="Notifications" class="notification find-help"
+                    title="Notifications"></a>
         </div>
-        <a href="#"><img src="img/help.png" alt="Find Help" class="find-help" title="Find Help"></a>
-        <a href="myProfile.html"><img src="img/profile.png" alt="Profile" class="profile find-help" title="Profile"></a>
-        <a href="#"><img src="img/notification.png" alt="Notifications" class="notification find-help"
-                title="Notifications"></a>
     </div>
 
 
     <div class="container">
 
         <div class="row ">
-            <div class="col-auto nav-bar">
-
+            <div class="col-3 nav-bar">
                 <nav class="nav-bar-items">
                     <ul>
                         <li class="items">
@@ -76,179 +76,165 @@
                 </nav>
 
             </div>
-
-
-
-            <div class="col-sm p-4 project-cards">
-                <div class="card-content">
-                    <h2 class="line-1">Project-1<span><img src="img/star.png" alt="Star" class="star-icon"></span></h2>
-                    <div class="card-info">
-                        <div class="card-info-line1">
-                            <p>from Company X </p>
-                            <p> Project ID: #1928</p>
-
+            <div class="col-9 d-flex flex-wrap">
+                <div class="col-4 p-4 project-cards">
+                    <div class="card-content">
+                        <h2 class="line-1">Project-1<span><img src="img/star.png" alt="Star" class="star-icon"></span></h2>
+                        <div class="card-info">
+                            <div class="card-info-line1">
+                                <p>from Company X </p>
+                                <p> Project ID: #1928</p>
+    
+                            </div>
+    
+    
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium error quas ut ducimus
+                                perspiciatis sapiente autem dolorem, unde labore repellat vero provid.
+    
+                            </p>
                         </div>
-
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium error quas ut ducimus
-                            perspiciatis sapiente autem dolorem, unde labore repellat vero provident temporibus quos
-                            ullam
-                            earum possimus consectetur. Dolorum, atque.
-
-                        </p>
+    
+                        <div class="btn-1">
+                            <button class="details-btn" onclick="window.location.href = 'seeDetails.html' ">See
+                                Details</button>
+                        </div>
+    
+    
                     </div>
-
-                    <div class="btn-1">
-                        <button class="details-btn" onclick="window.location.href = 'seeDetails.html' ">See
-                            Details</button>
-                    </div>
-
-
+    
+    
                 </div>
 
+                <div class="col-4 p-4 project-cards">
+                    <div class="card-content">
+                        <h2 class="line-1">Project-2<span><img src="img/star.png" alt="Star" class="star-icon"></span></h2>
+                        <div class="card-info">
+                            <div class="card-info-line1">
+                                <p>from Company X </p>
+                                <p> Project ID: #1928</p>
+    
+                            </div>
+    
+    
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium error quas ut ducimus
+                                perspiciatis sapiente autem dolorem, unde labore repellat vero provid.
+    
+                            </p>
+                        </div>
+    
+                        <div class="btn-1">
+                            <button class="details-btn" onclick="window.location.href = 'seeDetails.html' ">See
+                                Details</button>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="col-4 p-4 project-cards">
+                    <div class="card-content">
+                        <h2 class="line-1">Project-3<span><img src="img/star.png" alt="Star" class="star-icon"></span></h2>
+                        <div class="card-info">
+                            <div class="card-info-line1">
+                                <p>from Company X </p>
+                                <p> Project ID: #1928</p>
+    
+                            </div>
+    
+    
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium error quas ut ducimus
+                                perspiciatis sapiente autem dolorem, unde labore repellat vero provid.
+    
+                            </p>
+                        </div>
+                        <div class="btn-1">
+                            <button class="details-btn" onclick="window.location.href = 'seeDetails.html' ">See
+                                Details</button>
+                        </div>
+    
+                    </div>
+    
+                </div>
 
+                <div class="col-4 p-4 project-cards">
+                    <div class="card-content">
+                        <h2 class="line-1">Project-4<span><img src="img/star.png" alt="Star" class="star-icon"></span></h2>
+                        <div class="card-info">
+                            <div class="card-info-line1">
+                                <p>from Company X </p>
+                                <p> Project ID: #1928</p>
+    
+                            </div>
+    
+    
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium error quas ut ducimus
+                                perspiciatis sapiente autem dolorem, unde labore repellat vero provid.
+    
+                            </p>
+                        </div>
+                        <div class="btn-1">
+                            <button class="details-btn" onclick="window.location.href = 'seeDetails.html' ">See
+                                Details</button>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="col-4 p-4 project-cards">
+                    <div class="card-content">
+                        <h2 class="line-1">Project-5<span><img src="img/star.png" alt="Star" class="star-icon"></span></h2>
+                        <div class="card-info">
+                            <div class="card-info-line1">
+                                <p>from Company X </p>
+                                <p> Project ID: #1928</p>
+    
+                            </div>
+    
+    
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium error quas ut ducimus
+                                perspiciatis sapiente autem dolorem, unde labore repellat vero provid.
+    
+                            </p>
+                        </div>
+                        <div class="btn-1">
+                            <button class="details-btn" onclick="window.location.href = 'seeDetails.html' ">See
+                                Details</button>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="col-4 p-4 project-cards">
+                    <div class="card-content">
+                        <h2 class="line-1">Project-6<span><img src="img/star.png" alt="Star" class="star-icon"></span></h2>
+                        <div class="card-info">
+                            <div class="card-info-line1">
+                                <p>from Company X </p>
+                                <p> Project ID: #1928</p>
+    
+                            </div>
+    
+    
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium error quas ut ducimus
+                                perspiciatis sapiente autem dolorem, unde labore repellat vero provid.
+    
+                            </p>
+                        </div>
+                        <div class="btn-1">
+                            <button class="details-btn" onclick="window.location.href = 'seeDetails.html' ">See
+                                Details</button>
+                        </div>
+    
+                    </div>
+    
+                </div>
             </div>
 
 
-            <div class="col-sm p-4 project-cards">
-                <div class="card-content">
-                    <h2 class="line-1">Project-2<span><img src="img/star.png" alt="Star" class="star-icon"></span></h2>
-                    <div class="card-info">
-                        <div class="card-info-line1">
-                            <p>from Company X </p>
-                            <p> Project ID: #1928</p>
 
-                        </div>
-
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium error quas ut ducimus
-                            perspiciatis sapiente autem dolorem, unde labore repellat vero provident temporibus quos
-                            ullam
-                            earum possimus consectetur. Dolorum, atque.
-
-                        </p>
-                    </div>
-
-                    <div class="btn-1">
-                        <button class="details-btn" onclick="window.location.href = 'seeDetails.html' ">See
-                            Details</button>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-sm p-4 project-cards">
-                <div class="card-content">
-                    <h2 class="line-1">Project-3<span><img src="img/star.png" alt="Star" class="star-icon"></span></h2>
-                    <div class="card-info">
-                        <div class="card-info-line1">
-                            <p>from Company X </p>
-                            <p> Project ID: #1928</p>
-
-                        </div>
-
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium error quas ut ducimus
-                            perspiciatis sapiente autem dolorem, unde labore repellat vero provident temporibus quos
-                            ullam
-                            earum possimus consectetur. Dolorum, atque.
-
-                        </p>
-                    </div>
-                    <div class="btn-1">
-                        <button class="details-btn" onclick="window.location.href = 'seeDetails.html' ">See
-                            Details</button>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="w-100"></div>
-
-            <div class="col-sm-1" style="margin-left: 17px;"></div>
-
-            <div class="col-sm p-4 project-cards">
-                <div class="card-content">
-                    <h2 class="line-1">Project-4<span><img src="img/star.png" alt="Star" class="star-icon"></span></h2>
-                    <div class="card-info">
-                        <div class="card-info-line1">
-                            <p>from Company X </p>
-                            <p> Project ID: #1928</p>
-
-                        </div>
-
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium error quas ut ducimus
-                            perspiciatis sapiente autem dolorem, unde labore repellat vero provident temporibus quos
-                            ullam
-                            earum possimus consectetur. Dolorum, atque.
-
-                        </p>
-                    </div>
-                    <div class="btn-1">
-                        <button class="details-btn" onclick="window.location.href = 'seeDetails.html' ">See
-                            Details</button>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-sm p-4 project-cards">
-                <div class="card-content">
-                    <h2 class="line-1">Project-5<span><img src="img/star.png" alt="Star" class="star-icon"></span></h2>
-                    <div class="card-info">
-                        <div class="card-info-line1">
-                            <p>from Company X </p>
-                            <p> Project ID: #1928</p>
-
-                        </div>
-
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium error quas ut ducimus
-                            perspiciatis sapiente autem dolorem, unde labore repellat vero provident temporibus quos
-                            ullam
-                            earum possimus consectetur. Dolorum, atque.
-
-                        </p>
-                    </div>
-                    <div class="btn-1">
-                        <button class="details-btn" onclick="window.location.href = 'seeDetails.html' ">See
-                            Details</button>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-sm p-4 project-cards">
-                <div class="card-content">
-                    <h2 class="line-1">Project-6<span><img src="img/star.png" alt="Star" class="star-icon"></span></h2>
-                    <div class="card-info">
-                        <div class="card-info-line1">
-                            <p>from Company X </p>
-                            <p> Project ID: #1928</p>
-
-                        </div>
-
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium error quas ut ducimus
-                            perspiciatis sapiente autem dolorem, unde labore repellat vero provident temporibus quos
-                            ullam
-                            earum possimus consectetur. Dolorum, atque.
-
-                        </p>
-                    </div>
-                    <div class="btn-1">
-                        <button class="details-btn" onclick="window.location.href = 'seeDetails.html' ">See
-                            Details</button>
-                    </div>
-
-                </div>
-
-            </div>
+            
 
         </div>
     </div>

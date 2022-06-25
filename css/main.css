@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 *,
@@ -141,12 +142,15 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 20px;
+  border-bottom: 1px solid white;
 }
 
 .logo-box {
   width: 300px;
-  margin-left: 82px;
   margin-bottom: 20px;
 }
 
@@ -166,6 +170,10 @@ body {
   margin-bottom: 10px;
 }
 
+.items span {
+  font-family: "Roboto";
+}
+
 .items:hover {
   border-radius: 8px;
   -webkit-box-shadow: 5px 10px 18px black;
@@ -174,7 +182,6 @@ body {
 
 .nav-bar {
   width: 312px;
-  margin-left: -201px !important;
 }
 
 .nav-bar-link {
@@ -208,11 +215,12 @@ body {
   color: #ece9e5;
   font-size: 30px;
   font-weight: bold;
-  font-family: 'Rokkit', serif;
+  font-family: 'Roboto', serif;
 }
 
 .completed-projects {
   font-size: 21px !important;
+  font-family: 'Roboto' !important;
 }
 
 .completed-projects {
@@ -225,6 +233,9 @@ body {
 .completed-projects:hover, .completed-projects:active, .completed-projects:link {
   color: #ece9e5;
   text-decoration: none;
+  width: 180px;
+  font-size: 12px !important;
+  margin-left: 12px;
 }
 
 .search {
@@ -236,6 +247,7 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin-right: 12px;
 }
 
 .search-text {
@@ -255,14 +267,19 @@ body {
   background-color: #ece9e5;
   border-radius: 4px;
   margin-left: -5px;
+  width: 25px;
+  height: 25px;
+  -webkit-transform: translate(-27px, 8px);
+          transform: translate(-27px, 8px);
 }
 
 .find-help {
-  width: 40px;
+  width: 25px;
   height: auto;
   border-radius: 32px;
   -webkit-transition: all .2s;
   transition: all .2s;
+  margin-left: 6px;
 }
 
 .find-help:hover {
@@ -305,6 +322,7 @@ body {
   font-family: inherit;
   font-weight: bolder;
   font-size: 25px;
+  font-family: "Roboto";
 }
 
 .star-icon {
@@ -357,7 +375,7 @@ body {
   color: #ece9e5;
   text-decoration: none;
   font-size: 15px;
-  font-family: 'Rokkit', serif;
+  font-family: 'Roboto', serif;
   margin-right: 10px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -380,6 +398,11 @@ body {
 
 .card-content-detailed p {
   padding: 10px;
+}
+
+.project-cards-detailed form .form-text-container textarea {
+  width: 97%;
+  height: 80px;
 }
 
 .project-info {
@@ -691,6 +714,7 @@ body {
   margin-left: 780px;
   border-radius: 4px;
   background-color: #242c3a;
+  font-family: "Roboto";
 }
 
 .choose-team {
